@@ -31,7 +31,7 @@ function checkInputs() {
     const formIsValid = [...formControls].every((formControl) => {
         return formControl.className === "form-control success";
     });
-//msg exibida no console
+
     if (formIsValid) {
         console.log("Formulário está válido!");
     }
@@ -40,17 +40,14 @@ function setErrorFor(input, message) {
     const formControl = input.parentElement;
     const small = formControl.querySelector("small");
 
-    // Adiciona a mensagem de erro
     small.innerText = message;
 
-    // Adiciona a classe de erro
     formControl.className = "form-control error";
 }
 
 function setSuccessFor(input) {
     const formControl = input.parentElement;
 
-    // Adicionar a classe de sucesso
     formControl.className = "form-control success";
 }
 
