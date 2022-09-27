@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(walls.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    background-color: white;;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0. 3);
+    width: 600px;
+    max-width: 100%;
+    overflow: hidden;
+
+}
+
+.header {
+    background-color: #eee;
+    padding: 20px;
+
+}
+
+.form {
+    padding: 20px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    border: 2px solid #f0f0f0;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+    padding-left: 30px;
+    border: 2px solid #c9c6c6;
+
+}
+
+.form-control i.fa-user {
+    visibility: visible;
+    position: relative;
+    top: 39px;
+    right: 56px;
+
+
+}
+
+#lockc{
+    visibility: visible;
+    position: absolute;
+    top: 39px;
+    right: 535px;
+}
+
+#lock{
+    visibility: visible;
+    position: absolute;
+    top: 39px;
+    right: 535px;
+}
+
+.form-control i.fa-envelope {
+    visibility: visible;
+    position: relative;
+    top: 40px;
+    right: 40px;
+
+
+}
+
+.form-control i.fa-exclamation-circle {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control i.fa-check-circle {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+}
+
+
+.form-control small {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.form button {
+    background-color: #47a827;
+    border-color: none;
+    border: none;
+    color: #fcf0fc;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 11px;
+    cursor: pointer;
+    box-shadow: 0 5px 0 #36831c;
+}
+
+.btn-cadastrar:hover{
+    box-shadow: 0 5px 0 #36831c;
+
+}
+.btn-cadastrar:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.form-control.success input {
+    border-color: #1c7e19;
+
+}
+
+.form-control.error input {
+    border-color: rgb(209, 37, 37);
+
+}
+
+.form-control.success i.fa-check-circle {
+    border-color: #1c7e19;
+    visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+    border-color: #1c7e19;
+    visibility: visible;
+}
+
+.form-control.error small {
+    visibility: visible;
+    color: rgb(209, 37, 37);
+
+}
+.titulos{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}

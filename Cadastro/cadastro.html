@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="imagem/png" href="ícone.png" />
+    <link rel="stylesheet" href="stylecadastro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <title>Cadastro</title>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Cadastre-se</h2>
+        </div>
+        <form id="form" class="form">
+            <div class="form-control ">
+                <label class="titulos" for="username">Usúario</label>
+                <i class="fa-solid fa-user"></i>
+                <input type="text" id="username" placeholder="Digite seu nome de usuario">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+            <div class="form-control">
+                <label class="titulos" for="email">Email</label>
+                <i class="fa-solid fa-envelope"></i>
+                <input type="text" id="email" placeholder="Digite seu email">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+            <div class="form-control">
+                <label class="titulos" for="password">Senha</label>
+                <div id="lock" class="lock">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <input type="password" id="password" placeholder="Digite sua senha...">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+            <div class="form-control">
+                <label class="titulos" for="password-confirmation">Confirme sua Senha</label>
+                <div id="lockc" class="lockc">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <input type="password" id="password-confirmation" placeholder="Digite sua senha novamente...">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+            <button type="submit" class="btn-cadastrar">Cadastrar</button>
+        </form>
+    </div>
+    <script src="https://kit.fontawesome.com/5bff323fac.js" crossorigin="anonymous"></script>
+    <script src="./scripts.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+</body>
+
+</html>
